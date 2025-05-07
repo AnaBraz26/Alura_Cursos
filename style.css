@@ -29,6 +29,9 @@ body{
 
 .apresentacao__conteudo{
    width: 615px;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
 }
 
 .apresentacao__conteudo__titulo{
@@ -44,6 +47,18 @@ body{
 .apresentacao__links{
    display: flex;
    justify-content: space-between;
+}
+
+.apresentacao__links__link{
+   background-color: aquamarine;
+   width: 225px;
+   text-align: center;
+   border-radius: 16px;
+   font-size: 16px;
+   padding: 21.5px 0;
+   text-decoration: none;
+   color: black;
+   font-family: "Cascadia Mono", sans-serif;
 }
 
 .image{
